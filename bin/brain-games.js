@@ -1,3 +1,7 @@
 #!/usr/bin/env node
+/* eslint-disable import/extensions */
+/* eslint-disable no-console */
 
-console.log('Welcome to the Brain Games!');
+import { sayHello } from '../src/cli.js';
+
+sayHello();
